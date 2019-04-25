@@ -69,7 +69,7 @@ El [operador AND lógico condicional](#conditional-logical-and-operator-) `&&` t
 
 En el caso de los operandos de tipos de datos enteros, el operador `&` calcula el operador [AND lógico bit a bit](and-operator.md#integer-logical-bitwise-and-operator) de sus operandos. El operador `&` unario es el [operador address-of](and-operator.md#unary-address-of-operator).
 
-## <a name="logical-exclusive-or-operator-"></a>Operador IR exclusivo lógico ^
+## <a name="logical-exclusive-or-operator-"></a>Operador OR exclusivo lógico ^
 
 El operador `^` calcula el operador OR exclusivo lógica, también conocido como el operador XOR lógico, de sus operandos. El resultado de `x ^ y` es `true` si `x` se evalúa como `true` y `y` se evalúa como `false` o `x` se evalúa como `false` y `y` se evalúa como `true`. De lo contrario, el resultado es `false`. Es decir, para los operandos `bool`, el operador `^` calcula el mismo resultado como el [operador de desigualdad](equality-operators.md#inequality-operator-) `!=`.
 
